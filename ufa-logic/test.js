@@ -31,5 +31,5 @@ test('Test pattern 6', pattern_count('hell', 'hello'), 0) // expected output 5
 
 test('Test count char 1', countChar('Hello World'), { d: 1, e: 1, H: 1, l: 3, o: 2, r: 1, W: 1 })
 test('Test count char 2', countChar('Bismillah'), { a: 1, B: 1, h: 1, i: 2, l: 2, m: 1, s: 1 })
-test('Test count char 3', countChar('MasyaAllah'), { a: 3, A: 1, h: 1, l: 2, M: 1, s: 1, y: 1 }) // seharusnya benar jika sesuai intruksi
+test('Test count char 3', countChar('MasyaAllah'), { A: 1, a: 3, h: 1, l: 2, M: 1, s: 1, y: 1 })
 test('Test count char 4', countChar('Baarakallah'), { a: 5, B: 1, h: 1, k: 1, l: 2, r: 1 }) 
