@@ -8,7 +8,7 @@ function countChar(str) {
   for (let i = 0; i < strarr2.length - 1; i++) {
     if (strarr2[i].charCodeAt(0) > strarr2[i+1].charCodeAt(0) && strarr2[i].toLowerCase() === strarr2[i+1].toLowerCase()) {
       [strarr2[i], strarr2[i+1]] = [strarr2[i+1], strarr2[i]]
-      i += 1
+      i++
     }
   }
   
