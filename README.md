@@ -72,6 +72,6 @@ install dependencies :
 kemudian :
 ```npm run android``` atau ```yarn android``` untuk menjalankan aplikasi android.
 
-Aplikasi akan terinstall di **emulator** atau **device android** yang terhubung.
+Aplikasi akan terinstall di **emulator** atau **device android** yang terhubung. Ana juga melampirkan aplikasi yang telah dibuild.
 
 ***Syukron jazaakumullahul khayran.***
