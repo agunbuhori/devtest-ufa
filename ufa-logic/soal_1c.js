@@ -14,7 +14,7 @@ function countChar(str) {
   
   strarr2.forEach(item => {
     result[item] = 0
-  });
+  })
 
   strarr1.forEach(item => {
     result[item]++
