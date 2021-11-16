@@ -120,7 +120,7 @@ const Read = ({navigation, route}: Props) => {
             bgColor="rgba(0, 0, 0, 0.1)"
             size="sm"
             p={0.5}
-            onPress={() => move(-1)}>
+            onPress={() => move(+1)}>
             <FeatherIcon name="chevron-left" size={30} color="white" />
           </Button>
 
@@ -138,13 +138,13 @@ const Read = ({navigation, route}: Props) => {
             bgColor="rgba(0, 0, 0, 0.1)"
             size="sm"
             p={0.5}
-            onPress={() => move(+1)}>
+            onPress={() => move(-1)}>
             <FeatherIcon name="chevron-right" size={30} color="white" />
           </Button>
         </Box>
       </Flex>
 
-      <Box zIndex="0">
+      <Box>
         {readMode === ReadMode.list && (
           <Box minHeight={SCREEN_HEIGHT - 120} bgColor="white">
             {loading && <FullProgress />}
